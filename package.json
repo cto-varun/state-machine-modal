@@ -1,0 +1,33 @@
+{
+    "name": "@ivoyant/state-machine-modal",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "State Machine Modal",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "@ivoyant/component-loader": "^1.0.37",
+        "@xstate/react": "^3.0.2",
+        "axios": "^0.20.0",
+        "squirrelly": "^7.9.0",
+        "xstate": "^4.13.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2",
+        "@ivoyant/component-template": "^1.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
